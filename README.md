@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Tankiso Thebe</h1>
-<h3 align="center">A passionate Full Stack Software Engineer from South Africa</h3>
+<h3 align="center">Passionate about JavaScript, cybersecurity, and project management, diving into tech with a focus on coding, security, and efficient project delivery.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=majortank&label=Profile%20views&color=0e75b6&style=flat" alt="majortank" /> </p>
 
