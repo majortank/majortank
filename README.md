@@ -15,7 +15,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/majortank](https://github.com/majortank)
 
-- 💬 Ask me about **Reactjs, JavaScript, Responsive Web Design.**
+- 💬 Ask me about **Reactjs, JavaScript, Front-End Development**
 
 - 📫 How to reach me **thabo.tankiso.thebe@gmail.com**
 
