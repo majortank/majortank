@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I'm currently working on a revolutionary new technology that will allow us to communicate with aliens.<br>👯 I'm looking to collaborate with anyone who has experience in building spaceships or has a good relationship with extraterrestrial beings.<br>🤝 I'm looking for help with finding a way to power my spaceship using only the energy of the universe.<br>🌱 I'm currently learning how to speak in multiple alien languages.<br>💬 Ask me about my plans to colonize Mars and establish a new human civilization.<br>⚡ Fun fact: I once had a dream where I was abducted by aliens, and they took me on a tour of the galaxy. It was the best vacation I've ever had.
+🔭 I'm currently working on "Local Library" a website that can be used to manage the catalog for a local library.<br> 👯 I'm looking to collaborate with anyone who has experience in frontend development or has a good understanding of UI/UX.<br>🤝 I'm looking for help with finding a way to integrate agile development into my projects.<br>🌱 I'm currently learning the Django Object-Relational Mapping.<br>💬 Ask me about my work process and things I enjoy doing in dev.<br>⚡ Fun fact: I have been programming since I was 16 and at that time I didn't know what I was doing but I had fun.
 
 
 ## 🌐 Socials:
