@@ -1,3 +1,7 @@
+<div align="center" style="display: flex; justify-content: center; align-items: center; height: 300px;">
+  <img src="IMG_4598.jpg" alt="PeepGame">
+</div>
+
 # 💫 About Me:
 🔭 I'm currently working on "Local Library" a website that can be used to manage the catalog for a local library.<br> 👯 I'm looking to collaborate with anyone who has experience in frontend development or has a good understanding of UI/UX.<br>🤝 I'm looking for help with finding a way to integrate agile development into my projects.<br>🌱 I'm currently learning the Django Object-Relational Mapping.<br>💬 Ask me about my work process and things I enjoy doing in dev.<br>⚡ Fun fact: I have been programming since I was 16 and at that time I didn't know what I was doing but I had fun.
 
