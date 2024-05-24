@@ -3,7 +3,12 @@
 </div>
 
 # 💫 About Me:
-🔭 I'm currently working on "Local Library" a website that can be used to manage the catalog for a local library.<br> 👯 I'm looking to collaborate with anyone who has experience in frontend development or has a good understanding of UI/UX.<br>🤝 I'm looking for help with finding a way to integrate agile development into my projects.<br>🌱 I'm currently learning the Django Object-Relational Mapping.<br>💬 Ask me about my work process and things I enjoy doing in dev.<br>⚡ Fun fact: I have been programming since I was 16 and at that time I didn't know what I was doing but I had fun.
+- 🔭 Currently working on "Local Library," a website for managing local library catalogs.
+- 👯 Looking to collaborate with frontend developers or those with a strong understanding of UI/UX.
+- 🤝 Seeking help to integrate agile development into my projects.
+- 🌱 Learning Django Object-Relational Mapping.
+- 💬 Ask me about my work process and what I enjoy in development.
+- ⚡ Fun fact: I've been programming since I was 16, having fun even when I didn't know what I was doing.
 
 
 ## 🌐 Socials:
