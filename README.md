@@ -1,5 +1,5 @@
 <div align="center" style="display: flex; justify-content: center; align-items: center; height: 300px;">
-  <img src="IMG_4598.jpg" alt="PeepGame">
+  <img src="53192216189_ee00e671f1_o.jpg" alt="PeepGame">
 </div>
 
 # 💫 About Me:
