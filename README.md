@@ -2,9 +2,8 @@
   <img src="53192216189_ee00e671f1_o.jpg" alt="PeepGame">
 </div>
 
-**Vainglorious Bio:**
-
 🌟 **Legendary Developer Crafting Perfection** 🌟
+
 * Master of the Backend | RPA Virtuoso | DevOps Demigod
 
 > Witness the prowess of a real developer, forging flawless digital realms with unmatched expertise.
