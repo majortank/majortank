@@ -13,9 +13,6 @@
 
 ---
 
-Feel free to tweak this further to match your style or add any specific achievements or details you want to highlight!
-
-
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tankisothebe) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/4159892) 
 
