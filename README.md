@@ -2,14 +2,12 @@
   <img src="53192216189_ee00e671f1_o.jpg" alt="PeepGame">
 </div>
 
-🌟 **Legendary Developer Crafting Perfection** 🌟
+🌟 Legendary Developer Crafting Perfection 🌟
+Master of the Backend | RPA Virtuoso | DevOps Demigod
 
-* Master of the Backend | RPA Virtuoso | DevOps Demigod
-
-> Witness the prowess of a real developer, forging flawless digital realms with unmatched expertise.
-> From backend brilliance to robotic process automation (RPA) wizardry and DevOps domination,
-> my craft transcends the ordinary.
-> Join me on a journey where code meets excellence and innovation knows no bounds. 💻⚙️🚀
+Witness the prowess of a real developer, forging flawless digital realms with unmatched expertise. 
+From backend brilliance to robotic process automation (RPA) wizardry and DevOps domination, my craft transcends the ordinary. 
+Join me on a journey where code meets excellence and innovation knows no bounds. 💻⚙️🚀
 
 ---
 
