@@ -1,7 +1,3 @@
-<div align="left">
-  <img src="IMG-20241102-WA0020.jpg" alt="Profile Picture" width="300" height="300" style="border-radius: 50%; object-fit: cover;">
-</div>
-
 # Thabo "Tank" Tankiso Thebe
 
 > System Analyst & Network Security Specialist transitioning from Network Intern to System Analyst at VUT, with a proven track record in full-stack development and infrastructure management. Passionate about implementing secure, scalable solutions and automating deployment processes.
