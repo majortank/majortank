@@ -26,6 +26,8 @@ MajorTank is dedicated to building robust software applications, backend service
   - **Features:** Instant vote counts, end-to-end encryption  
 
 ---
+[![An image of @majortank3's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/majortank3)](https://holopin.io/@majortank3)
+---
 
 ## 🛠 Technical Expertise  
 
