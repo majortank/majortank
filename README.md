@@ -225,40 +225,52 @@ tech_expertise = {
 
 <div align="center">
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 📈 Contribution Activity
 
-### 📈 GitHub Stats
-<img src="https://github-readme-stats.vercel.app/api?username=majortank&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=7FFF00&icon_color=7FFF00&text_color=FFFFFF&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=majortank&theme=github-dark&hide_border=true&bg_color=0D1117&color=7FFF00&line=7FFF00&point=FFFFFF)](https://github.com/majortank)
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center" width="50%">
+
+### 💻 Languages & Tools
+
+```text
+Python       ████████████░░░░░   60%
+JavaScript   ████████░░░░░░░░░   40%
+TypeScript   ██████░░░░░░░░░░░   30%
+Java         █████░░░░░░░░░░░░   25%
+PHP          ████░░░░░░░░░░░░░   20%
+```
 
 </td>
-<td width="50%" valign="top">
+<td align="center" width="50%">
 
-### 🔥 GitHub Streak
-<img src="https://streak-stats.demolab.com/?user=majortank&theme=dark&hide_border=true&background=0D1117&ring=7FFF00&fire=FF6C00&currStreakLabel=7FFF00" alt="GitHub Streak" />
+### 🎯 Focus Areas
+
+```text
+Backend Development    ⭐⭐⭐⭐⭐
+Frontend Development   ⭐⭐⭐⭐⭐
+Database Design        ⭐⭐⭐⭐⭐
+Cloud Architecture     ⭐⭐⭐⭐
+DevOps & CI/CD        ⭐⭐⭐⭐
+Cybersecurity         ⭐⭐⭐⭐
+```
 
 </td>
 </tr>
 </table>
 
-### 💻 Most Used Languages
+<div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=majortank&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=7FFF00&text_color=FFFFFF&langs_count=10" alt="Top Languages" />
+### 📊 Quick Stats
 
-### 🏆 GitHub Trophies
-
-<img src="https://github-profile-trophy.vercel.app/?username=majortank&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
-
-### 📊 Contribution Graph
-
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=majortank&theme=github-dark&hide_border=true&bg_color=0D1117&color=7FFF00&line=7FFF00&point=FFFFFF)](https://github.com/majortank)
-
-### 📌 Pinned Repositories
-
-<a href="https://github.com/majortank">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=majortank&repo=majortank&theme=radical&hide_border=true&bg_color=0D1117&title_color=7FFF00&icon_color=7FFF00&text_color=FFFFFF" />
-</a>
+![](https://img.shields.io/badge/Repositories-Multiple%20Active-brightgreen?style=for-the-badge)
+![](https://img.shields.io/badge/Focus-Full%20Stack%20Development-blue?style=for-the-badge)
+![](https://img.shields.io/badge/Experience-System%20Analyst-orange?style=for-the-badge)
+![](https://img.shields.io/badge/Specialization-Secure%20Applications-red?style=for-the-badge)
 
 </div>
 
