@@ -225,34 +225,40 @@ tech_expertise = {
 
 <div align="center">
 
-### Activity Overview
-
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=majortank&theme=chartreuse-dark&hide_border=true&include_all_commits=true&count_private=true&show_icons=true)
+### 📈 GitHub Stats
+<img src="https://github-readme-stats.vercel.app/api?username=majortank&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=7FFF00&icon_color=7FFF00&text_color=FFFFFF&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=majortank&theme=chartreuse-dark&hide_border=true)
+### 🔥 GitHub Streak
+<img src="https://streak-stats.demolab.com/?user=majortank&theme=dark&hide_border=true&background=0D1117&ring=7FFF00&fire=FF6C00&currStreakLabel=7FFF00" alt="GitHub Streak" />
 
 </td>
 </tr>
 </table>
 
-### Most Used Languages
+### 💻 Most Used Languages
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=majortank&theme=chartreuse-dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=majortank&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=7FFF00&text_color=FFFFFF&langs_count=10" alt="Top Languages" />
 
-### 🏆 GitHub Achievements
+### 🏆 GitHub Trophies
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=majortank&theme=monokai&no-frame=true&no-bg=false&margin-w=4&column=4)
+<img src="https://github-profile-trophy.vercel.app/?username=majortank&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
 
-### 🔝 Top Contributed Repositories
+### 📊 Contribution Graph
 
-![Top Contributed](https://github-contributor-stats.vercel.app/api?username=majortank&limit=5&theme=chartreuse-dark&combine_all_yearly_contributions=true)
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=majortank&theme=github-dark&hide_border=true&bg_color=0D1117&color=7FFF00&line=7FFF00&point=FFFFFF)](https://github.com/majortank)
+
+### 📌 Pinned Repositories
+
+<a href="https://github.com/majortank">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=majortank&repo=majortank&theme=radical&hide_border=true&bg_color=0D1117&title_color=7FFF00&icon_color=7FFF00&text_color=FFFFFF" />
+</a>
 
 </div>
 
