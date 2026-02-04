@@ -2,9 +2,9 @@
 
 # 👋 Hi, I'm Thabo "Tank" Tankiso Thebe
 
-### 💻 Full-Stack Developer | 🔒 System Analyst | 🚀 Software Engineer
+### 💻 Full-Stack Developer | 🧠 System Analyst | 🚀 Software Engineer
 
-*Transforming ideas into secure, scalable solutions through code*
+*Building secure, scalable solutions by turning real-world problems into well-engineered systems*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/thabotankisothebe)
 [![SecTank](https://img.shields.io/badge/SecTank-Cybersecurity-red?style=for-the-badge&logo=github)](https://github.com/SecTank)
@@ -31,11 +31,11 @@ me = Developer()
 me.say_hi()
 ```
 
-### 🎯 What Drives Me
-- 🛠️ **Building:** Robust full-stack applications with security at the core
-- 🔒 **Securing:** Systems through best practices and innovative solutions
-- 🤖 **Automating:** Repetitive tasks to maximize efficiency
-- 🌱 **Learning:** Constantly exploring new technologies and methodologies
+### 🎯 What I Build
+- 🛠️ Full-stack applications with authentication, RBAC, and API integrations
+- 🔒 Secure systems using encryption, JWT, and input validation
+- 🤖 Automation scripts for deployment, testing, and data processing
+- 📊 Real-time dashboards and data visualization tools
 
 ---
 
@@ -48,10 +48,14 @@ me.say_hi()
 ### 📝 Smart Notes
 **Multi-user note management system with RBAC**
 
-- 🔐 Role-based access control
-- 🤝 Collaborative note sharing
-- 🔒 Secure API endpoints
-- 👨‍💼 Admin dashboard
+**Problem Analysis**
+Teams need collaborative note-taking with granular permissions.
+Constraints: Concurrent edits, audit trails, multi-tenant isolation.
+
+**Engineering Decisions**
+- PostgreSQL for ACID compliance and row-level security
+- JWT with refresh tokens to handle session management
+- Repository pattern for testability and separation of concerns
 
 **Stack:** `Django` `React` `PostgreSQL`
 
@@ -61,10 +65,14 @@ me.say_hi()
 ### 🛤️ Path Pioneer API
 **High-performance RESTful API**
 
-- ⚡ Optimized for speed
-- 🔑 JWT authentication
-- 📊 Advanced data handling
-- 📈 Scalable architecture
+**Problem Analysis**
+High-volume data ingestion with real-time querying needs.
+Constraints: Sub-100ms response times, flexible schema.
+
+**Engineering Decisions**
+- FastAPI for async I/O and automatic OpenAPI docs
+- MongoDB for flexible schema and horizontal scaling
+- Indexed queries and connection pooling for performance
 
 **Stack:** `FastAPI` `MongoDB`
 
@@ -76,12 +84,16 @@ me.say_hi()
 ### 🗳️ Student Election System
 **Secure real-time voting platform**
 
-- 🔒 End-to-end encryption
-- ⚡ Real-time vote counting
-- 📊 Live results dashboard
-- 🎨 Modern UI/UX
+**Problem Analysis**
+Students need transparent voting with verifiable anonymity.
+Constraints: One vote per user, tamper-proof results, accessibility.
 
-**Stack:** `Next.js` `Tailwind CSS`
+**Engineering Decisions**
+- Server-side rendering for SEO and initial load performance
+- WebSockets for real-time updates without polling
+- Cryptographic vote hashing to prevent tampering
+
+**Stack:** `Next.js` `Tailwind CSS` `WebSockets`
 
 </td>
 <td width="50%">
