@@ -143,6 +143,23 @@ Constraints: One vote per user, tamper-proof results, accessibility.
 </tr>
 </table>
 
+---
+
+## 🚧 Coming Soon
+
+<table>
+<tr>
+<td width="100%">
+
+### 🧩 Framework Assessment Platform (SaaS)
+**A strategic tool for evaluating organizational capabilities against industry standards**
+
+Status: *Preparing for live deployment*
+
+</td>
+</tr>
+</table>
+
 <div align="center">
 
 [![Holopin Badges](https://holopin.me/majortank3)](https://holopin.io/@majortank3)
