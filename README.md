@@ -39,6 +39,33 @@ me.say_hi()
 
 ---
 
+## ⚡ Quick Snapshot
+
+<table>
+<tr>
+<td width="33%">
+
+**📍 Location**
+South Africa (Remote-friendly)
+
+</td>
+<td width="33%">
+
+**✅ Availability**
+Open for collaborations & freelance
+
+</td>
+<td width="33%">
+
+**🎯 Focus**
+Secure systems, scalable apps, automation
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 🎯 Featured Projects
 
 <table>
@@ -109,11 +136,11 @@ Transparent elections with verifiable anonymity and integrity.
 
 ---
 
-## 🌍 Live Projects
+## 🌍 Projects Grid
 
 <table>
 <tr>
-<td width="33%">
+<td width="50%">
 
 ### 🚀 BizCanvas
 **SaaS platform**
@@ -121,7 +148,7 @@ Transparent elections with verifiable anonymity and integrity.
 🔗 http://bizcanvas.space
 
 </td>
-<td width="33%">
+<td width="50%">
 
 ### 📚 Makobane Works
 **Interactive digital resource**
@@ -129,7 +156,9 @@ Transparent elections with verifiable anonymity and integrity.
 🔗 http://makobane.works
 
 </td>
-<td width="33%">
+</tr>
+<tr>
+<td width="50%">
 
 ### 🧠 PeepGame
 **Technical knowledge base & engineering blog**
@@ -137,16 +166,7 @@ Transparent elections with verifiable anonymity and integrity.
 🔗 https://peepgame.online
 
 </td>
-</tr>
-</table>
-
----
-
-## 🚧 Coming Soon
-
-<table>
-<tr>
-<td width="100%">
+<td width="50%">
 
 ### 🧩 Framework Assessment Platform (SaaS)
 **A strategic tool for evaluating organizational capabilities against industry standards**
@@ -156,6 +176,14 @@ Status: *Preparing for live deployment*
 </td>
 </tr>
 </table>
+
+---
+
+## 🧰 Services
+
+- 🚀 MVP builds (idea to production-ready)
+- 🔍 Security audits and hardening
+- ⚙️ Automation and workflow optimization
 
 <div align="center">
 
