@@ -110,6 +110,39 @@ Constraints: One vote per user, tamper-proof results, accessibility.
 </tr>
 </table>
 
+---
+
+## 🌍 Live Projects
+
+<table>
+<tr>
+<td width="33%">
+
+### 🚀 BizCanvas
+**SaaS platform**
+
+🔗 http://bizcanvas.space
+
+</td>
+<td width="33%">
+
+### 📚 Makobane Works
+**Interactive digital resource**
+
+🔗 http://makobane.works
+
+</td>
+<td width="33%">
+
+### 🧠 PeepGame
+**Technical knowledge base & engineering blog**
+
+🔗 https://peepgame.online
+
+</td>
+</tr>
+</table>
+
 <div align="center">
 
 [![Holopin Badges](https://holopin.me/majortank3)](https://holopin.io/@majortank3)
