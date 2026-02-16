@@ -48,14 +48,13 @@ me.say_hi()
 ### 📝 Smart Notes
 **Multi-user note management system with RBAC**
 
-**Problem Analysis**
-Teams need collaborative note-taking with granular permissions.
-Constraints: Concurrent edits, audit trails, multi-tenant isolation.
+**Why it matters**
+Secure collaboration with audit-ready, multi-tenant note workflows.
 
-**Engineering Decisions**
-- PostgreSQL for ACID compliance and row-level security
-- JWT with refresh tokens to handle session management
-- Repository pattern for testability and separation of concerns
+**Key choices**
+- PostgreSQL row-level security + ACID compliance
+- JWT with refresh tokens for robust sessions
+- Repository pattern for testable services
 
 **Stack:** `Django` `React` `PostgreSQL`
 
@@ -65,14 +64,13 @@ Constraints: Concurrent edits, audit trails, multi-tenant isolation.
 ### 🛤️ Path Pioneer API
 **High-performance RESTful API**
 
-**Problem Analysis**
-High-volume data ingestion with real-time querying needs.
-Constraints: Sub-100ms response times, flexible schema.
+**Why it matters**
+Real-time ingestion with sub-100ms responses at scale.
 
-**Engineering Decisions**
-- FastAPI for async I/O and automatic OpenAPI docs
-- MongoDB for flexible schema and horizontal scaling
-- Indexed queries and connection pooling for performance
+**Key choices**
+- FastAPI for async I/O + OpenAPI
+- MongoDB for flexible schema + scaling
+- Indexed queries + connection pooling
 
 **Stack:** `FastAPI` `MongoDB`
 
@@ -84,14 +82,13 @@ Constraints: Sub-100ms response times, flexible schema.
 ### 🗳️ Student Election System
 **Secure real-time voting platform**
 
-**Problem Analysis**
-Students need transparent voting with verifiable anonymity.
-Constraints: One vote per user, tamper-proof results, accessibility.
+**Why it matters**
+Transparent elections with verifiable anonymity and integrity.
 
-**Engineering Decisions**
-- Server-side rendering for SEO and initial load performance
-- WebSockets for real-time updates without polling
-- Cryptographic vote hashing to prevent tampering
+**Key choices**
+- SSR for SEO + faster first load
+- WebSockets for live results
+- Cryptographic vote hashing
 
 **Stack:** `Next.js` `Tailwind CSS` `WebSockets`
 
@@ -176,30 +173,13 @@ Status: *Preparing for live deployment*
 
 </div>
 
-```python
-tech_expertise = {
-    "backend": {
-        "languages": ["Python", "Node.js", "PHP", "Java"],
-        "frameworks": ["Django", "FastAPI", "Express.js", "Spring"],
-        "apis": ["RESTful", "GraphQL", "WebSockets"]
-    },
-    "frontend": {
-        "core": ["React", "Next.js", "TypeScript"],
-        "styling": ["Tailwind CSS", "SASS", "Bootstrap"],
-        "state": ["Redux", "React Query", "Context API"]
-    },
-    "databases": {
-        "sql": ["PostgreSQL", "MySQL", "MS SQL Server"],
-        "nosql": ["MongoDB", "Firebase", "Supabase"]
-    },
-    "devops": {
-        "containers": ["Docker"],
-        "ci_cd": ["GitHub Actions", "GitLab CI"],
-        "servers": ["Nginx", "Apache", "Gunicorn"]
-    },
-    "cloud": ["AWS", "Azure", "Google Cloud", "DigitalOcean", "Vercel"]
-}
-```
+**Backend:** Python, Node.js, Java, PHP | Django, FastAPI, Express, Spring
+
+**Frontend:** React, Next.js, TypeScript | Tailwind CSS, SASS, Bootstrap
+
+**Databases:** PostgreSQL, MySQL, MS SQL Server | MongoDB, Firebase, Supabase
+
+**DevOps & Cloud:** Docker, GitHub Actions, GitLab CI | AWS, Azure, GCP, DigitalOcean, Vercel
 
 <details>
 <summary><b>🔧 Development Principles</b></summary>
@@ -215,74 +195,6 @@ tech_expertise = {
 </details>
 
 ---
-
-
-## 💻 Complete Tech Stack
-
-<details>
-<summary><b>Click to expand full technology list</b></summary>
-<br>
-
-### Languages
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
-
-### Frontend
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
-
-### Backend
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
-
-### Databases
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-
-### Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
-
-### Tools & Others
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-
-</details>
-
----
 ## 📊 GitHub Analytics
 
 <div align="center">
@@ -292,38 +204,6 @@ tech_expertise = {
 [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=majortank&theme=github-dark&hide_border=true&bg_color=0D1117&color=7FFF00&line=7FFF00&point=FFFFFF)](https://github.com/majortank)
 
 </div>
-
-<table align="center">
-<tr>
-<td align="center" width="50%">
-
-### 💻 Languages & Tools
-
-```text
-Python       ████████████░░░░░   60%
-JavaScript   ████████░░░░░░░░░   40%
-TypeScript   ██████░░░░░░░░░░░   30%
-Java         █████░░░░░░░░░░░░   25%
-PHP          ████░░░░░░░░░░░░░   20%
-```
-
-</td>
-<td align="center" width="50%">
-
-### 🎯 Focus Areas
-
-```text
-Backend Development    ⭐⭐⭐⭐⭐
-Frontend Development   ⭐⭐⭐⭐⭐
-Database Design        ⭐⭐⭐⭐⭐
-Cloud Architecture     ⭐⭐⭐⭐
-DevOps & CI/CD        ⭐⭐⭐⭐
-Cybersecurity         ⭐⭐⭐⭐
-```
-
-</td>
-</tr>
-</table>
 
 <div align="center">
 
