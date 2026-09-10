@@ -1,64 +1,121 @@
 <div align="center">
 
-# 👋 Hi, I'm Thabo "Tank" Tankiso Thebe
+# Thabo "Tank" Tankiso Thebe
 
-### 💻 Full-Stack Developer | 🧠 System Analyst | 🚀 Software Engineer
+### Systems Software Engineer • Rust & Linux Specialist • Network Infrastructure
 
-*Building secure, scalable solutions by turning real-world problems into well-engineered systems*
-
+[![Available for Hire](https://img.shields.io/badge/Status-Actively%20Looking%20for%20Work-39ff7a?style=for-the-badge&logo=statuspage&logoColor=black)](mailto:thabo.tankiso.thebe@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-majortank.space-00ffff?style=for-the-badge&logo=firefox-browser&logoColor=black)](https://majortank.space)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/thabotankisothebe)
-[![SecTank](https://img.shields.io/badge/SecTank-Cybersecurity-red?style=for-the-badge&logo=github)](https://github.com/SecTank)
-[![NetworkTank](https://img.shields.io/badge/NetworkTank-Networking-blue?style=for-the-badge&logo=github)](https://github.com/networkTank)
+[![GitHub](https://img.shields.io/badge/GitHub-majortank-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/majortank)
+
+*Building high-performance systems software, low-latency Linux audio engines, and large-scale enterprise campus infrastructure.*
 
 </div>
 
 ---
 
-## 🚀 About Me
+## ⚡ Executive Summary
 
-```python
-class Developer:
-    def __init__(self):
-        self.name = "Thabo 'Tank' Tankiso Thebe"
-        self.role = "System Analyst & Software Developer"
-        self.passion = ["Building scalable applications", "Automating workflows", "Cybersecurity"]
-        self.currently_learning = ["Advanced System Design", "Cloud Architecture", "AI/ML Integration"]
-    
-    def say_hi(self):
-        print("Thanks for visiting! Let's build something amazing together.")
+I am a **Systems, Rust & Linux Software Engineer** with a deep focus on performance, concurrency, and reliability. My work spans:
+- **Systems & Low-Latency Audio:** Architecting native Linux audio players and engines in Rust with CPAL, Symphonia multi-format decoding, lock-free ring buffers, real-time 30Hz spectrum visualizers, dynamic `.so` plugin systems, and D-Bus/MPRIS controls.
+- **Enterprise Linux Infrastructure & Networking:** Deploying large-scale DHCP architectures servicing 100+ campus VLANs on enterprise server hardware, multicast OS imaging systems across university computer lab fleets, and pfSense/firewall network segmentation.
+- **Pure Rust Zero-Dependency Network Services:** Implementing high-throughput HTTP/1.1 servers, socket parsers, token-bucket rate limiters, and in-memory TTL caching from scratch with zero external crate dependencies.
+- **Modern Full-Stack Applications:** Developing native desktop GUIs with Iced 0.12 (WGPU) and full-stack web applications with TypeScript, React 19, and Next.js.
 
-me = Developer()
-me.say_hi()
-```
-
-### 🎯 What I Build
-- 🛠️ Full-stack applications with authentication, RBAC, and API integrations
-- 🔒 Secure systems using encryption, JWT, and input validation
-- 🤖 Automation scripts for deployment, testing, and data processing
-- 📊 Real-time dashboards and data visualization tools
+> [!IMPORTANT]
+> **Currently Looking for Work:** Available immediately for full-time Software Engineering roles (Systems, Rust Backend, Linux Infrastructure, or Full-Stack). Remote, Hybrid, or Worldwide.
+> 
+> 📧 **Email:** [thabo.tankiso.thebe@gmail.com](mailto:thabo.tankiso.thebe@gmail.com) • [tankiso@majortank.space](mailto:tankiso@majortank.space)  
+> 🌐 **Portfolio:** [https://majortank.space](https://majortank.space)
 
 ---
 
-## ⚡ Quick Snapshot
+## 🛠️ Technical Competencies
+
+| Domain | Technologies & Capabilities |
+| :--- | :--- |
+| **Systems & Low-Latency (Rust)** | **Rust** (Ownership, Atomics, Lifetimes, Concurrency, FFI), **CPAL** (Audio I/O), **Symphonia** (Multi-format decoding), **Crossbeam** (Lock-free channels), Dynamic Shared Libraries (`.so` / ABI), POSIX APIs |
+| **Linux & Infrastructure** | **Arch Linux**, **Ubuntu Server**, **Debian**, **ISC-DHCP** (100+ VLANs, IP Helpers, 802.1Q), **FOG Project** (PXE / Multicasting), **pfSense**, **LDAP**, Systemd daemons, **PKGBUILD / AUR Packaging**, Bash / POSIX Shell |
+| **Backend & Protocols** | Socket Programming, Custom HTTP/1.1 Engines, RESTful API Design, **SQLite** (WAL mode & concurrency), **PostgreSQL**, Token-Bucket Rate Limiting, In-Memory TTL Caches, **Python** (FastAPI, Flask) |
+| **GUI & Frontend** | **Iced 0.12** (Rust Native GUI, WGPU backend), **TypeScript**, **React 19**, **Next.js**, WebSockets, Tailwind CSS, Terminal CRT UI Design |
+| **DevOps & Verification** | Performance Profiling (**Flamegraph**, **Perf**, **Criterion.rs**), **Docker**, **Git / GitHub CLI**, Packet Analysis (**Wireshark**, `tcpdump`), RBAC & Security Hardening |
+
+---
+
+## 🎯 Flagship Engineering Projects
 
 <table>
 <tr>
-<td width="33%">
+<td width="50%" valign="top">
 
-**📍 Location**
-South Africa (Remote-friendly)
+### 🎵 [Kanono Media Player](https://github.com/majortank/kanono-media-player)
+**Modular Arch Linux desktop audio player inspired by Foobar2000**
+- Built in **Rust** with an **Iced 0.12** reactive native GUI and dark CRT aesthetics.
+- Low-latency **CPAL** output pipeline with sample-accurate PCM scrubbing, lock-free Crossbeam audio queues, and underrun-resilient playback.
+- Multi-codec decoding via **Symphonia** (Opus, Vorbis, FLAC, WAV, AAC, MP3) with custom WebM demuxing.
+- Real-time 30Hz audio spectrum visualizer, SQLite WAL library indexing, EBU R128 ReplayGain loudness analysis, and D-Bus MPRIS desktop controls.
+- Dynamic shared object (`.so`) component plugin system with shared ABI and runtime host loader.
+- Native Arch Linux package distribution via `PKGBUILD`.
+
+`Rust` `CPAL` `Symphonia` `Iced` `SQLite WAL` `D-Bus` `PKGBUILD`
 
 </td>
-<td width="33%">
+<td width="50%" valign="top">
 
-**✅ Availability**
-Open for collaborations & freelance
+### 🌐 [Centralized Enterprise DHCP Infrastructure](https://github.com/majortank/Centralized-DHCP-Server)
+**Campus-wide dynamic IP addressing across 100+ VLANs**
+- Deployed on enterprise **IBM System x3100 M4** hardware running Ubuntu Server.
+- Configured **ISC-DHCP-Server** to service dynamic IP allocations across 100+ segmented enterprise VLANs via IP Helper relays on core switches.
+- Implemented subnet partitioning, static reservations, failover mechanisms, and exhaustive lease audit logging for university campus operations.
+
+`Linux` `Ubuntu Server` `ISC-DHCP` `802.1Q VLANs` `IP Helpers` `Enterprise Networking`
 
 </td>
-<td width="33%">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**🎯 Focus**
-Secure systems, scalable apps, automation
+### ⚡ [Zero-Dependency Rust Services & CLIs](https://github.com/majortank/github-trending-cli)
+**High-throughput REST APIs and CLI tools in pure Rust**
+- Engineered production-grade services ([github-trending-cli](https://github.com/majortank/github-trending-cli), [expense-tracker-api](https://github.com/majortank/expense-tracker-api), [todo-list-api](https://github.com/majortank/todo-list-api), [weather-api](https://github.com/majortank/weather-api)) with **zero external crate dependencies**.
+- Implemented custom HTTP/1.1 request parsers, socket networking, thread-safe memory models, and token-bucket rate limiters from scratch.
+- Demonstrates deep mastery of Rust standard library, raw socket I/O, memory layouts, and thread pooling.
+
+`Pure Rust` `Zero Dependencies` `Socket Programming` `HTTP/1.1` `Concurrency`
+
+</td>
+<td width="50%" valign="top">
+
+### 🖥️ [Alternative FOG Multicast Imaging Server](https://github.com/majortank/Alternative-FOG-Multicast-Server)
+**Bulk OS multicasting & deployment for university computer labs**
+- Built high-throughput disk imaging infrastructure using the FOG Project for fleets of Lenovo ThinkCentre M70a G3 machines.
+- Tuned PXE boot environments, TFTP/NFS throughput, and UDP multicast saturation to image entire 100+ seat labs simultaneously with minimal network contention.
+
+`Linux` `FOG Project` `Multicast UDP` `PXE Boot` `Bash Scripting` `Lab Infrastructure`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📄 [Document Processing OCR & AI Agent](https://github.com/majortank/Document-ProcessingOCR)
+**Intelligent document extraction and autonomous agent workflow**
+- Automated document analysis combining **Tesseract OCR** with **LangChain** autonomous agent tool-calling.
+- Image preprocessing for noisy scanned documents, key-value schema extraction, and webhook integrations for downstream data pipelines.
+
+`Python` `Tesseract OCR` `LangChain` `AI Agents` `Data Pipelines`
+
+</td>
+<td width="50%" valign="top">
+
+### 💻 [MajorTank Linux Terminal Portfolio](https://github.com/majortank/majortank-linux-portfolio)
+**Retro CRT phosphor-green interactive terminal portfolio**
+- High-performance web portfolio built with **React 19**, **TypeScript**, and **Vite**.
+- Real-time GitHub API integration, live search/filtering across 50+ repositories, interactive Neofetch identity panel, and CRT scanline styling.
+- Live at [majortank.space](https://majortank.space/).
+
+`React 19` `TypeScript` `Vite` `Terminal UI` `CSS Grid`
 
 </td>
 </tr>
@@ -66,233 +123,31 @@ Secure systems, scalable apps, automation
 
 ---
 
-## 🎯 Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-### 📝 Smart Notes
-**Multi-user note management system with RBAC**
-
-**Why it matters**
-Secure collaboration with audit-ready, multi-tenant note workflows.
-
-**Key choices**
-- PostgreSQL row-level security + ACID compliance
-- JWT with refresh tokens for robust sessions
-- Repository pattern for testable services
-
-**Stack:** `Django` `React` `PostgreSQL`
-
-</td>
-<td width="50%">
-
-### 🛤️ Path Pioneer API
-**High-performance RESTful API**
-
-**Why it matters**
-Real-time ingestion with sub-100ms responses at scale.
-
-**Key choices**
-- FastAPI for async I/O + OpenAPI
-- MongoDB for flexible schema + scaling
-- Indexed queries + connection pooling
-
-**Stack:** `FastAPI` `MongoDB`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🗳️ Student Election System
-**Secure real-time voting platform**
-
-**Why it matters**
-Transparent elections with verifiable anonymity and integrity.
-
-**Key choices**
-- SSR for SEO + faster first load
-- WebSockets for live results
-- Cryptographic vote hashing
-
-**Stack:** `Next.js` `Tailwind CSS` `WebSockets`
-
-</td>
-<td width="50%">
-
-### 🌐 Multi-Repository Portfolio
-
-- 🔒 **[SecTank](https://github.com/SecTank)** - Cybersecurity tools & labs
-- 🌐 **[NetworkTank](https://github.com/networkTank)** - Network automation
-- 💻 **MajorTank** - Full-stack projects
-
-*Building secure solutions across domains*
-
-</td>
-</tr>
-</table>
-
----
-
-## 🌍 Projects Grid
-
-<table>
-<tr>
-<td width="50%">
-
-### 🚀 BizCanvas
-**SaaS platform**
-
-🔗 http://bizcanvas.space
-
-</td>
-<td width="50%">
-
-### 📚 Makobane Works
-**Interactive digital resource**
-
-🔗 http://makobane.works
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🧠 PeepGame
-**Technical knowledge base & engineering blog**
-
-🔗 https://peepgame.online
-
-</td>
-<td width="50%">
-
-### 🧩 Framework Assessment Platform (SaaS)
-**A strategic tool for evaluating organizational capabilities against industry standards**
-
-Status: *Preparing for live deployment*
-
-</td>
-</tr>
-</table>
-
----
-
-## 🧰 Services
-
-- 🚀 MVP builds (idea to production-ready)
-- 🔍 Security audits and hardening
-- ⚙️ Automation and workflow optimization
+## 📈 GitHub Analytics & Activity
 
 <div align="center">
 
-[![Holopin Badges](https://holopin.me/majortank3)](https://holopin.io/@majortank3)
+[![GitHub Streak](https://streak-stats.demolab.com?user=majortank&theme=tokyonight&hide_border=true&date_format=M%20j%2C%20Y)](https://github.com/majortank)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=majortank&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/majortank)
 
 </div>
 
 ---
 
-## 🛠️ Technical Arsenal
+## 📬 Contact & Opportunities
+
+I am **actively seeking full-time opportunities** in:
+- **Systems Software Engineering (Rust / C++)**
+- **Linux Infrastructure & Site Reliability Engineering**
+- **Low-Latency & Audio / Media Software Development**
+- **Backend & Network Systems Engineering**
+
+- 📧 **Direct Email:** [thabo.tankiso.thebe@gmail.com](mailto:thabo.tankiso.thebe@gmail.com) • [tankiso@majortank.space](mailto:tankiso@majortank.space)
+- 💼 **LinkedIn:** [linkedin.com/in/thabotankisothebe](https://linkedin.com/in/thabotankisothebe)
+- 🌐 **Web Portfolio:** [majortank.space](https://majortank.space)
+- 📍 **Location:** Johannesburg, South Africa • Open to Worldwide Remote or Relocation
 
 <div align="center">
-
-### Core Technologies
-
-</div>
-
-**Backend:** Python, Node.js, Java, PHP | Django, FastAPI, Express, Spring
-
-**Frontend:** React, Next.js, TypeScript | Tailwind CSS, SASS, Bootstrap
-
-**Databases:** PostgreSQL, MySQL, MS SQL Server | MongoDB, Firebase, Supabase
-
-**DevOps & Cloud:** Docker, GitHub Actions, GitLab CI | AWS, Azure, GCP, DigitalOcean, Vercel
-
-<details>
-<summary><b>🔧 Development Principles</b></summary>
-<br>
-
-- ✅ **Clean Code:** Writing maintainable, self-documenting code
-- 🧩 **Modular Design:** Building reusable, scalable components
-- 🔒 **Security First:** Implementing best practices from the ground up
-- 🚀 **Performance:** Optimizing for speed and efficiency
-- 🤝 **Collaboration:** Git-based workflows and comprehensive documentation
-- 🔄 **CI/CD:** Automated testing and deployment pipelines
-
-</details>
-
----
-## 📊 GitHub Analytics
-
-<div align="center">
-
-### 📈 Contribution Activity
-
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=majortank&theme=github-dark&hide_border=true&bg_color=0D1117&color=7FFF00&line=7FFF00&point=FFFFFF)](https://github.com/majortank)
-
-</div>
-
-<div align="center">
-
-### 📊 Quick Stats
-
-![](https://img.shields.io/badge/Repositories-Multiple%20Active-brightgreen?style=for-the-badge)
-![](https://img.shields.io/badge/Focus-Full%20Stack%20Development-blue?style=for-the-badge)
-![](https://img.shields.io/badge/Experience-System%20Analyst-orange?style=for-the-badge)
-![](https://img.shields.io/badge/Specialization-Secure%20Applications-red?style=for-the-badge)
-
-</div>
-
----
-
-## 🤝 Let's Connect & Collaborate
-
-<div align="center">
-
-### Find me around the web 🌍
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/thabotankisothebe)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/majortank)
-[![SecTank](https://img.shields.io/badge/SecTank-FF0000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SecTank)
-[![NetworkTank](https://img.shields.io/badge/NetworkTank-0000FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/networkTank)
-
-</div>
-
----
-
-<div align="center">
-
-### 💡 Open to Collaboration
-
-I'm always interested in:
-- 🚀 Innovative full-stack projects
-- 🔒 Security-focused applications
-- 🤝 Open-source contributions
-- 💼 Freelance opportunities
-
-**Feel free to reach out for collaborations or just a friendly chat about tech!**
-
-### 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to:
-- 🐛 Report bugs
-- 💡 Suggest new features  
-- 🔧 Submit pull requests
-- ⭐ Star repositories you find useful
-
----
-
-*"Automating the mundane, securing the essential, and building the future—one commit at a time."*
-
-<br>
-
-![Profile Views](https://komarev.com/ghpvc/?username=majortank&color=brightgreen&style=flat-square)
-
-</div>
-
----
-
-<div align="center">
-<sub>Built with ❤️ by Thabo "Tank" Thebe</sub>
+<sub>Engineered with precision by Thabo "Tank" Tankiso Thebe</sub>
 </div>
