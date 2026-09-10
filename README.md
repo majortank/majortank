@@ -2,14 +2,14 @@
 
 # Thabo "Tank" Tankiso Thebe
 
-### Systems Software Engineer • Rust & Linux Specialist • Network Infrastructure
+### Software Engineer • Full-Stack, Backend & Systems
 
 [![Available for Hire](https://img.shields.io/badge/Status-Actively%20Looking%20for%20Work-39ff7a?style=for-the-badge&logo=statuspage&logoColor=black)](mailto:thabo.tankiso.thebe@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-majortank.space-00ffff?style=for-the-badge&logo=firefox-browser&logoColor=black)](https://majortank.space)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/thabotankisothebe)
 [![GitHub](https://img.shields.io/badge/GitHub-majortank-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/majortank)
 
-*Building high-performance systems software, low-latency Linux audio engines, and large-scale enterprise campus infrastructure.*
+*Building scalable web applications, robust backend services, and high-performance software with JavaScript/TypeScript, Python, and Rust.*
 
 </div>
 
@@ -17,14 +17,12 @@
 
 ## ⚡ Executive Summary
 
-I am a **Systems, Rust & Linux Software Engineer** with a deep focus on performance, concurrency, and reliability. My work spans:
-- **Systems & Low-Latency Audio:** Architecting native Linux audio players and engines in Rust with CPAL, Symphonia multi-format decoding, lock-free ring buffers, real-time 30Hz spectrum visualizers, dynamic `.so` plugin systems, and D-Bus/MPRIS controls.
-- **Enterprise Linux Infrastructure & Networking:** Deploying large-scale DHCP architectures servicing 100+ campus VLANs on enterprise server hardware, multicast OS imaging systems across university computer lab fleets, and pfSense/firewall network segmentation.
-- **Pure Rust Zero-Dependency Network Services:** Implementing high-throughput HTTP/1.1 servers, socket parsers, token-bucket rate limiters, and in-memory TTL caching from scratch with zero external crate dependencies.
-- **Modern Full-Stack Applications:** Developing native desktop GUIs with Iced 0.12 (WGPU) and full-stack web applications with TypeScript, React 19, and Next.js.
+I am a **Software Engineer** focused on building resilient backend services, scalable APIs, and modern full-stack web applications. My primary languages are **JavaScript/TypeScript** and **Python**, complemented by **Rust** for performance-critical systems and tooling. 
+
+Whether designing multi-tenant web applications, crafting low-latency concurrent software, automating data ingestion pipelines, or configuring enterprise server infrastructure, I emphasize software engineering fundamentals: **clean domain architecture, performance, testability, and reliability.**
 
 > [!IMPORTANT]
-> **Currently Looking for Work:** Available immediately for full-time Software Engineering roles (Systems, Rust Backend, Linux Infrastructure, or Full-Stack). Remote, Hybrid, or Worldwide.
+> **Currently Looking for Work:** Available immediately for full-time Software Engineering roles (Full-Stack, Backend, or Systems). Remote, Hybrid, or Worldwide.
 > 
 > 📧 **Email:** [thabo.tankiso.thebe@gmail.com](mailto:thabo.tankiso.thebe@gmail.com) • [tankiso@majortank.space](mailto:tankiso@majortank.space)  
 > 🌐 **Portfolio:** [https://majortank.space](https://majortank.space)
@@ -33,66 +31,65 @@ I am a **Systems, Rust & Linux Software Engineer** with a deep focus on performa
 
 ## 🛠️ Technical Competencies
 
-| Domain | Technologies & Capabilities |
+| Discipline | Technologies & Core Capabilities |
 | :--- | :--- |
-| **Systems & Low-Latency (Rust)** | **Rust** (Ownership, Atomics, Lifetimes, Concurrency, FFI), **CPAL** (Audio I/O), **Symphonia** (Multi-format decoding), **Crossbeam** (Lock-free channels), Dynamic Shared Libraries (`.so` / ABI), POSIX APIs |
-| **Linux & Infrastructure** | **Arch Linux**, **Ubuntu Server**, **Debian**, **ISC-DHCP** (100+ VLANs, IP Helpers, 802.1Q), **FOG Project** (PXE / Multicasting), **pfSense**, **LDAP**, Systemd daemons, **PKGBUILD / AUR Packaging**, Bash / POSIX Shell |
-| **Backend & Protocols** | Socket Programming, Custom HTTP/1.1 Engines, RESTful API Design, **SQLite** (WAL mode & concurrency), **PostgreSQL**, Token-Bucket Rate Limiting, In-Memory TTL Caches, **Python** (FastAPI, Flask) |
-| **GUI & Frontend** | **Iced 0.12** (Rust Native GUI, WGPU backend), **TypeScript**, **React 19**, **Next.js**, WebSockets, Tailwind CSS, Terminal CRT UI Design |
-| **DevOps & Verification** | Performance Profiling (**Flamegraph**, **Perf**, **Criterion.rs**), **Docker**, **Git / GitHub CLI**, Packet Analysis (**Wireshark**, `tcpdump`), RBAC & Security Hardening |
+| **Backend & API Engineering** | **JavaScript / Node.js** (Express, APIs), **Python** (FastAPI, Django, Flask), RESTful API Design, **PostgreSQL**, **SQLite** (WAL mode), **MongoDB**, **Redis**, Authentication (JWT, Sessions, RBAC), Rate Limiting & Caching |
+| **Frontend & Full-Stack** | **React 19**, **Next.js** (SSR, Server Actions), **TypeScript** (Strict Type Safety), **Modern JavaScript** (ESNext, Async/Await), WebSockets, Tailwind CSS, Responsive UI & Web Accessibility |
+| **Systems & Performance** | **Rust** (Concurrency, Memory Safety, Lifetimes, Systems Tools), Linux Systems & POSIX Architecture, Multi-threading & Lock-Free Channels, Dynamic Shared Libraries (`.so`), Low-Latency Pipelines |
+| **DevOps & Infrastructure** | **Linux Administration** (Ubuntu Server, Debian, Arch), **Docker**, CI/CD Pipelines, **Git / GitHub Workflows**, Enterprise Networking (802.1Q VLANs, DHCP, Routing), Packaging & Daemons |
+| **Applied AI & Automation** | **LangChain** autonomous agents, **Tesseract OCR** data extraction pipelines, automated workflow integrations, Shell / Python scripting |
 
 ---
 
-## 🎯 Flagship Engineering Projects
+## 🎯 Featured Engineering Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🎵 [Kanono Media Player](https://github.com/majortank/kanono-media-player)
-**Modular Arch Linux desktop audio player inspired by Foobar2000**
-- Built in **Rust** with an **Iced 0.12** reactive native GUI and dark CRT aesthetics.
-- Low-latency **CPAL** output pipeline with sample-accurate PCM scrubbing, lock-free Crossbeam audio queues, and underrun-resilient playback.
-- Multi-codec decoding via **Symphonia** (Opus, Vorbis, FLAC, WAV, AAC, MP3) with custom WebM demuxing.
-- Real-time 30Hz audio spectrum visualizer, SQLite WAL library indexing, EBU R128 ReplayGain loudness analysis, and D-Bus MPRIS desktop controls.
-- Dynamic shared object (`.so`) component plugin system with shared ABI and runtime host loader.
-- Native Arch Linux package distribution via `PKGBUILD`.
+### 📝 [Smart Notes & Full-Stack Web Services](https://github.com/majortank/smartnotes)
+**Multi-tenant web application and secure RESTful backend**
+- Built scalable backend services with **Django**, **FastAPI**, and **PostgreSQL** featuring robust role-based access control (RBAC).
+- Developed a responsive, accessible frontend with **React**, handling dynamic client state and authenticated workflows.
+- Implemented JWT authentication with refresh token rotation and database query optimization.
 
-`Rust` `CPAL` `Symphonia` `Iced` `SQLite WAL` `D-Bus` `PKGBUILD`
+`JavaScript` `Python` `React` `Django` `FastAPI` `PostgreSQL`
 
 </td>
 <td width="50%" valign="top">
 
-### 🌐 [Centralized Enterprise DHCP Infrastructure](https://github.com/majortank/Centralized-DHCP-Server)
-**Campus-wide dynamic IP addressing across 100+ VLANs**
-- Deployed on enterprise **IBM System x3100 M4** hardware running Ubuntu Server.
-- Configured **ISC-DHCP-Server** to service dynamic IP allocations across 100+ segmented enterprise VLANs via IP Helper relays on core switches.
-- Implemented subnet partitioning, static reservations, failover mechanisms, and exhaustive lease audit logging for university campus operations.
+### 🎵 [Kanono Media Player](https://github.com/majortank/kanono-media-player)
+**Modular Linux desktop application with real-time audio pipeline**
+- Built in **Rust** with an **Iced 0.12** reactive native GUI and dark CRT theme.
+- Low-latency **CPAL** output pipeline with sample-accurate PCM scrubbing, lock-free Crossbeam audio queues, and underrun-resilient playback.
+- Multi-codec decoding via **Symphonia** & libopus (WebM, Opus, Vorbis, FLAC, WAV, AAC, MP3).
+- SQLite WAL library indexing, real-time 30Hz spectrum visualizer, and dynamic `.so` component plugin system with shared ABI.
 
-`Linux` `Ubuntu Server` `ISC-DHCP` `802.1Q VLANs` `IP Helpers` `Enterprise Networking`
+`Rust` `CPAL` `Symphonia` `Iced` `SQLite WAL` `Concurrency` `Linux APIs`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ [Zero-Dependency Rust Services & CLIs](https://github.com/majortank/github-trending-cli)
-**High-throughput REST APIs and CLI tools in pure Rust**
+### ⚡ [High-Throughput Network Services & CLIs](https://github.com/majortank/github-trending-cli)
+**High-performance REST APIs and CLI tools in pure Rust**
 - Engineered production-grade services ([github-trending-cli](https://github.com/majortank/github-trending-cli), [expense-tracker-api](https://github.com/majortank/expense-tracker-api), [todo-list-api](https://github.com/majortank/todo-list-api), [weather-api](https://github.com/majortank/weather-api)) with **zero external crate dependencies**.
-- Implemented custom HTTP/1.1 request parsers, socket networking, thread-safe memory models, and token-bucket rate limiters from scratch.
-- Demonstrates deep mastery of Rust standard library, raw socket I/O, memory layouts, and thread pooling.
+- Implemented custom HTTP/1.1 request parsers, socket networking, thread pools, and token-bucket rate limiters from scratch.
+- Demonstrates deep mastery of core networking protocols, memory safety, and concurrent thread management.
 
-`Pure Rust` `Zero Dependencies` `Socket Programming` `HTTP/1.1` `Concurrency`
+`Rust` `Socket Programming` `HTTP/1.1` `Concurrency` `In-Memory Caching`
 
 </td>
 <td width="50%" valign="top">
 
-### 🖥️ [Alternative FOG Multicast Imaging Server](https://github.com/majortank/Alternative-FOG-Multicast-Server)
-**Bulk OS multicasting & deployment for university computer labs**
-- Built high-throughput disk imaging infrastructure using the FOG Project for fleets of Lenovo ThinkCentre M70a G3 machines.
-- Tuned PXE boot environments, TFTP/NFS throughput, and UDP multicast saturation to image entire 100+ seat labs simultaneously with minimal network contention.
+### 🌐 [Centralized Enterprise DHCP Infrastructure](https://github.com/majortank/Centralized-DHCP-Server)
+**Campus-wide dynamic IP addressing across 100+ VLANs**
+- Deployed on enterprise **IBM System x3100 M4** server hardware running Ubuntu Server.
+- Configured **ISC-DHCP-Server** to service dynamic IP allocations across 100+ segmented enterprise VLANs via IP Helper relays on core switches.
+- Implemented subnet partitioning, static reservations, failover mechanisms, and lease audit logging for high-reliability operations.
 
-`Linux` `FOG Project` `Multicast UDP` `PXE Boot` `Bash Scripting` `Lab Infrastructure`
+`Linux` `Ubuntu Server` `ISC-DHCP` `802.1Q VLANs` `IP Helpers` `Networking`
 
 </td>
 </tr>
@@ -101,8 +98,8 @@ I am a **Systems, Rust & Linux Software Engineer** with a deep focus on performa
 
 ### 📄 [Document Processing OCR & AI Agent](https://github.com/majortank/Document-ProcessingOCR)
 **Intelligent document extraction and autonomous agent workflow**
-- Automated document analysis combining **Tesseract OCR** with **LangChain** autonomous agent tool-calling.
-- Image preprocessing for noisy scanned documents, key-value schema extraction, and webhook integrations for downstream data pipelines.
+- Automated document analysis combining **Python**, **Tesseract OCR**, and **LangChain** autonomous agent tool-calling.
+- Preprocessed unformatted scans and images, extracted structured key-value schemas, and integrated webhook triggers for automated ingestion.
 
 `Python` `Tesseract OCR` `LangChain` `AI Agents` `Data Pipelines`
 
@@ -137,11 +134,10 @@ I am a **Systems, Rust & Linux Software Engineer** with a deep focus on performa
 
 ## 📬 Contact & Opportunities
 
-I am **actively seeking full-time opportunities** in:
-- **Systems Software Engineering (Rust / C++)**
-- **Linux Infrastructure & Site Reliability Engineering**
-- **Low-Latency & Audio / Media Software Development**
-- **Backend & Network Systems Engineering**
+I am **actively seeking full-time opportunities** as a **Software Engineer** across:
+- **Full-Stack Software Engineering (JavaScript / TypeScript / React / Node.js)**
+- **Backend Engineering (Python / Django / FastAPI / Node.js)**
+- **Systems & Performance Engineering (Rust / Linux / Concurrency)**
 
 - 📧 **Direct Email:** [thabo.tankiso.thebe@gmail.com](mailto:thabo.tankiso.thebe@gmail.com) • [tankiso@majortank.space](mailto:tankiso@majortank.space)
 - 💼 **LinkedIn:** [linkedin.com/in/thabotankisothebe](https://linkedin.com/in/thabotankisothebe)
