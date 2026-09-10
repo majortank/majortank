@@ -120,6 +120,64 @@ Whether designing multi-tenant web applications, crafting low-latency concurrent
 
 ---
 
+## 🔒 Commercial & Proprietary System Case Studies
+
+> [!NOTE]
+> **Client Confidentiality & IP Protection:** Source code for selected commercial systems is maintained in private repositories under NDA. High-level architectural designs, database schemas, and performance trade-offs can be reviewed during technical interviews.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 Enterprise Policy RAG Platform
+`repo: policy-rag [confidential]` • **Enterprise NDA**
+- Context-aware **Retrieval-Augmented Generation** pipeline for enterprise compliance and legal documentation.
+- Hybrid dense-vector and sparse keyword search with semantic re-ranking for sub-second retrieval.
+- Multi-tenant document chunking pipeline with verifiable citation mapping to eliminate AI hallucination.
+
+`Python` `FastAPI` `Vector Embeddings` `RAG Pipeline` `PostgreSQL` `LangChain`
+
+</td>
+<td width="50%" valign="top">
+
+### 🏥 Telehealth Clinical Platform & Dashboards
+`repo: mitherapy-platform [commercial]` • **Production Client**
+- HIPAA-conscious mental health management platform featuring bidirectional practitioner-client portals.
+- Role-based access control (RBAC), real-time booking state machines, and automated calendar sync.
+- End-to-end encrypted session coordination and secure patient journal logging with PostgreSQL RLS.
+
+`TypeScript` `Next.js` `React` `Node.js` `PostgreSQL` `WebSockets`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 💼 Multi-Tenant SaaS Platform & Invoicing
+`repo: bmcfy-suite [commercial]` • **Commercial IP**
+- Business operations platform handling multi-workspace client onboarding, automated billing, and subscriptions.
+- Strict tenant database isolation using **PostgreSQL Row-Level Security (RLS)** with zero cross-tenant leakage.
+- Idempotent payment webhook reconciliation and automated PDF financial statement generation engine.
+
+`Next.js` `TypeScript` `Python` `PostgreSQL RLS` `Docker` `Redis`
+
+</td>
+<td width="50%" valign="top">
+
+### 📚 Lexicographical Search & NLP Engine
+`repo: makobane-engine [proprietary]` • **Proprietary Engine**
+- High-performance linguistic database and morphological search platform for Sesotho language resources.
+- Custom full-text indexing algorithms supporting dialectal variations and complex morphological inflections.
+- High-concurrency RESTful ingestion API maintaining sub-50ms p99 query latency across tens of thousands of records.
+
+`TypeScript` `Next.js` `PostgreSQL` `REST API` `Search Indexing`
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 📈 GitHub Analytics & Activity
 
 <div align="center">
