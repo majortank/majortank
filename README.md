@@ -41,6 +41,53 @@ Whether designing multi-tenant web applications, crafting low-latency concurrent
 
 ---
 
+## 🚀 Standalone Production Engineering Studios
+
+Interactive, zero-cloud client-side applications running 100% in-browser with zero tracking, native local persistence, and offline compilation:
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 📊 [BMCfy Studio](https://majortank.space/bmcfy)
+**Business Model Canvas & Strategy Studio**
+- Zero-dependency client-side canvas studio with interactive Hypotheses Kanban.
+- Math-based SVG spider radar scoring Market, Opportunity, and Model (MOM) alignment.
+- Direct client-side Word (`.docx`) executive reports and Excel (`.xlsx`) runway models generated via pure in-memory OOXML strings.
+- [**Launch Live App**](https://majortank.space/bmcfy) • [**Source**](https://github.com/majortank/bmcfy-editor)
+
+`Vanilla JS` `OOXML Word/Excel` `SVG Radar` `IndexedDB`
+
+</td>
+<td width="33%" valign="top">
+
+### 📄 [CVfy Studio](https://majortank.space/cvfy)
+**Career Engine & ATS Diagnostic Lab**
+- Standalone, privacy-preserving resume builder with 4 distinct typographic themes.
+- Live ATS parser simulator validating section detection and Job Description keyword gaps.
+- Dynamic STAR interview quiz generator with automated situational rubric scoring.
+- [**Launch Live App**](https://majortank.space/cvfy) • [**Source**](https://github.com/majortank/cvfy-editor)
+
+`TypeScript` `ATS Scanner` `STAR Rubric` `Word Export`
+
+</td>
+<td width="33%" valign="top">
+
+### 🖋️ [Marka Studio](https://majortank.space/marka)
+**Markdown & Mermaid v11 Documentation Workspace**
+- Live documentation studio built on **Next.js 15 App Router** and **React 19**.
+- Dual-pane AST engine with proportional bidirectional scroll synchronization.
+- Debounced **Mermaid v11** engine supporting 20 diagram specifications with dark/light sync.
+- [**Launch Live App**](https://majortank.space/marka) • [**Source**](https://github.com/majortank/smartEditor)
+
+`Next.js 15` `React 19` `Mermaid v11` `Tailwind CSS`
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 🎯 Featured Engineering Projects
 
 <table>
@@ -58,14 +105,17 @@ Whether designing multi-tenant web applications, crafting low-latency concurrent
 </td>
 <td width="50%" valign="top">
 
-### 🎵 [Kanono Media Player](https://github.com/majortank/kanono-media-player)
-**Modular Linux desktop application with real-time audio pipeline**
-- Built in **Rust** with an **Iced 0.12** reactive native GUI and dark CRT theme.
-- Low-latency **CPAL** output pipeline with sample-accurate PCM scrubbing, lock-free Crossbeam audio queues, and underrun-resilient playback.
-- Multi-codec decoding via **Symphonia** & libopus (WebM, Opus, Vorbis, FLAC, WAV, AAC, MP3).
-- SQLite WAL library indexing, real-time 30Hz spectrum visualizer, and dynamic `.so` component plugin system with shared ABI.
+### 🎵 [Kanono Media Player (v1.0.0 Release)](https://github.com/majortank/kanono-media-player)
+**Modular Cross-Platform Desktop Audio Engine & Media Player** • [![Latest Release](https://img.shields.io/github/v/release/majortank/kanono-media-player?label=v1.0.0&color=success)](https://github.com/majortank/kanono-media-player/releases/latest)
+- Built from scratch in **Rust** with an **Iced 0.12** reactive native GUI, dark CRT theme, and 6 dynamic color palettes.
+- Low-latency **CPAL** output pipeline with lock-free Crossbeam audio queues, sub-millisecond PCM scrubbing, and underrun-resilient playback.
+- Universal decoding via **Symphonia**, **libopus** & **FFmpeg** (FLAC, MP3, WAV, Opus, Vorbis, AAC/M4A, WebM, MP4).
+- **ITU-R BS.1770 / EBU R128** loudness normalization and ReplayGain auto-tagging with configurable target LUFS profiles.
+- Resilient 4-tier SQLite WAL catalog database with sub-millisecond query filtering, batch metadata editing, and 5-second lock tolerance.
+- Native cross-platform releases: **Inno Setup Windows installer** (non-admin & GUI subsystem), **macOS Apple Silicon & Intel DMGs**, and **Linux packages**.
+- [**Download v1.0.0**](https://github.com/majortank/kanono-media-player/releases/latest) • [**Architecture Post-Mortem**](https://majortank.space/#dispatches)
 
-`Rust` `CPAL` `Symphonia` `Iced` `SQLite WAL` `Concurrency` `Linux APIs`
+`Rust` `CPAL` `Symphonia` `EBU R128` `Iced 0.12` `SQLite WAL` `Windows` `macOS` `Linux`
 
 </td>
 </tr>
@@ -182,8 +232,12 @@ Whether designing multi-tenant web applications, crafting low-latency concurrent
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=majortank&theme=tokyonight&hide_border=true&date_format=M%20j%2C%20Y)](https://github.com/majortank)
+[![MajorTank's GitHub Stats](https://github-readme-stats.vercel.app/api?username=majortank&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true)](https://github.com/majortank)
 
+<br/>
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=majortank&theme=tokyonight&hide_border=true&date_format=M%20j%2C%20Y)](https://github.com/majortank)
+&nbsp;
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=majortank&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/majortank)
 
 </div>
